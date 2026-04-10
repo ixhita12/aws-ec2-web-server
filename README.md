@@ -32,3 +32,19 @@ Installed Nginx using the following commands:
 ```bash
 sudo apt update
 sudo apt install nginx -y
+
+### 5. Service Management
+- Started the Nginx service:
+```bash
+sudo systemctl start nginx
+
+Enabled auto-start on reboot:
+sudo systemctl enable nginx
+###6. Verification
+-Checked service status:
+```bash
+sudo systemctl status nginx
+-Verified server locally:
+```bash
+curl localhost
+-Accessed the web server using Public IPv4 address in a browser
